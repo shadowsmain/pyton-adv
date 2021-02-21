@@ -1,6 +1,6 @@
 import re
 
-RE_NUMBER_VALIDATOR = re.compile(r'^(\d){1}[.,]{1}\d+$')
+RE_NUMBER_VALIDATOR = re.compile(r'^\d+[.,]\d+$')
 
 
 def number_is_valid(number):
