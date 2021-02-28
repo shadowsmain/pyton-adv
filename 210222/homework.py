@@ -8,7 +8,7 @@ image_np = np.array(image)
 print(image_np.size, image_np.shape)
 
 image_np_conv = image_np
-image_np_conv[:, :, :] += 60
+image_np_conv[:, :, :] += 55
 
 new_image = Image.fromarray(image_np_conv.astype('uint8'))
 save_name = "tklight.jpg"
